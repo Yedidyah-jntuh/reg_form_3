@@ -8,7 +8,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 
 # Clone the repository (replace with your repo URL)
-RUN git clone https://github.com/your-username/reg_form_3.git .
+RUN git clone https://github.com/Yedidyah-jntuh/reg_form_3.git .
 
 # Install required packages
 RUN pip install --no-cache-dir Flask
